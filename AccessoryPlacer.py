@@ -487,14 +487,14 @@ class AccessoryPlacer(ShowBase):
             self.currGlassesPlacer.destroy()
             return
 
-    cameraLerps = [
+
+    def cameraLerp(self, i):
+        cameraLerps = [
         (Point3(0, 5, 0), Point3(180, 0, 0),),
         (Point3(-5, 0, 0), Point3(270, 0, 0),),
         (Point3(0, -5, 0), Point3(0, 0, 0),),
-        (Point3(5, 0, 0), Point3(90, 0, 0),),
-    ]
-
-    def cameraLerp(self, i):
+        (Point3(5, 0, 0), Point3(90, 0, 0),), ]
+    
         pos, hpr = cameraLerps[i]
         quat = Quat()
         quat.setHpr(hpr)
@@ -503,10 +503,10 @@ class AccessoryPlacer(ShowBase):
 
 
     def acceptCameraKeys(self):
-        base.accept('1', lambda: cameraLerp(0))
-        base.accept('2', lambda: cameraLerp(1))
-        base.accept('3', lambda: cameraLerp(2))
-        base.accept('4', lambda: cameraLerp(3))
+        base.accept('1', lambda: self.cameraLerp(0))
+        base.accept('2', lambda: self.cameraLerp(1))
+        base.accept('3', lambda: self.cameraLerp(2))
+        base.accept('4', lambda: self.cameraLerp(3))
 
     def ignoreCameraKeys(self):
         base.ignore('1')

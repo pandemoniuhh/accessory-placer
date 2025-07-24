@@ -55,11 +55,6 @@ HatModels = [None,
  'phase_4/models/accessories/tt_m_chr_avt_acc_hat_dinosaur',
  'phase_4/models/accessories/tt_m_chr_avt_acc_hat_band',
  'phase_4/models/accessories/tt_m_chr_avt_acc_hat_birdNest',
- 'phase_4/models/accessories/tt_m_chr_avt_acc_hat_mousekateer',
- 'phase_4/models/accessories/tvs_m_chr_avt_acc_hat_hatBow',
- 'phase_4/models/accessories/tvs_m_chr_avt_acc_hat_beanieHat',
- 'phase_4/models/accessories/tvs_m_chr_avt_acc_hat_mistletoe',
- 'phase_4/models/accessories/tvs_m_chr_avt_acc_hat_stripedElfHat'
 ]
 HatTextures = [None,
  'phase_4/maps/tt_t_chr_avt_acc_hat_ribbonRed.jpg',
@@ -82,10 +77,6 @@ HatTextures = [None,
  'phase_4/maps/tt_t_chr_avt_acc_hat_ribbonCheckerGreen.jpg',
  'phase_4/maps/tt_t_chr_avt_acc_hat_partyToon.jpg',
  'phase_4/maps/tt_t_chr_avt_acc_hat_bowlerRoger.jpg',
- 'phase_4/maps/tt_m_chr_avt_acc_hat_mousekateer.jpg',
- 'phase_4/maps/stPatricksHat.png',
- 'phase_4/maps/apparel/holiday/easter/tvs_holiday_easterAcc_BowBlue.png',
- 'phase_4/maps/apparel/holiday/easter/tvs_holiday_easterAcc_BowPink.png'
 ]
 GlassesModels = [None,
  'phase_4/models/accessories/tt_m_chr_avt_acc_msk_roundGlasses',
@@ -109,8 +100,6 @@ GlassesModels = [None,
  'phase_4/models/accessories/tt_m_chr_avt_acc_msk_squareRims',
  'phase_4/models/accessories/tt_m_chr_avt_acc_msk_eyepatch',
  'phase_4/models/accessories/tt_m_chr_avt_acc_msk_alienGlasses',
- 'phase_4/models/accessories/tt_m_chr_avt_acc_msk_hypno_goggles17',
- 'phase_4/models/accessories/tvs_m_chr_avt_acc_msk_roseGlasses'
 ]
 GlassesTextures = [None,
  'phase_4/maps/tt_t_chr_avt_acc_msk_masqueradeTypeMask2.jpg',
@@ -143,8 +132,6 @@ BackpackModels = [None,
  'phase_4/models/accessories/tt_m_chr_avt_acc_pac_band',
  'phase_4/models/accessories/tt_m_chr_avt_acc_pac_gags',
  'phase_4/models/accessories/tt_m_chr_avt_acc_pac_flunky',
- 'phase_4/models/accessories/tvs_m_chr_avt_acc_pac_backpackChocolate',
- 'phase_4/models/accessories/tvs_m_chr_avt_acc_pac_backpackClock'
 ]
 BackpackTextures = [None,
  'phase_4/maps/tt_t_chr_avt_acc_pac_backpackOrange.jpg',
