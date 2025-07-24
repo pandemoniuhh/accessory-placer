@@ -5,7 +5,7 @@ from panda3d.core import Point3, Quat
 
 from PlacerTool3D import PlacerTool3D
 import ToonGlobals
-import AccessoryGlobals
+import AccessoryBase
 
 import json
 
@@ -22,12 +22,12 @@ class AccessoryPlacer(ShowBase):
         self.LegDict = ToonGlobals.LegDict
         self.TorsoTypes = ToonGlobals.TorsoTypes
         self.LegTypes = ToonGlobals.LegTypes
-        self.HatModels = AccessoryGlobals.HatModels
-        self.HatTextures = AccessoryGlobals.HatTextures
-        self.GlassesModels = AccessoryGlobals.GlassesModels
-        self.GlassesTextures = AccessoryGlobals.GlassesTextures
-        self.BackpackModels = AccessoryGlobals.BackpackModels
-        self.BackpackTextures = AccessoryGlobals.BackpackTextures
+        self.HatModels = AccessoryBase.HatModels
+        self.HatTextures = AccessoryBase.HatTextures
+        self.GlassesModels = AccessoryBase.GlassesModels
+        self.GlassesTextures = AccessoryBase.GlassesTextures
+        self.BackpackModels = AccessoryBase.BackpackModels
+        self.BackpackTextures = AccessoryBase.BackpackTextures
         self.currHead = None
         self.currHeadIndex = 0
         self.currTorso = None
