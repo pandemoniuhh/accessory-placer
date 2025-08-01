@@ -1,13 +1,15 @@
 from direct.gui.DirectGui import *
 from direct.showbase.ShowBase import ShowBase
 from panda3d.core import loadPrcFileData
-from panda3d.core import Point3, Quat
+from panda3d.core import Point3, Quat, getModelPath, Filename
 
 from PlacerTool3D import PlacerTool3D
 import ToonGlobals
 import AccessoryBase
 
 import json
+
+getModelPath().appendDirectory(Filename("resources/"))
 
 class AccessoryPlacer(ShowBase):
 
